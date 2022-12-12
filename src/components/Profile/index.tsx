@@ -18,6 +18,9 @@ export const Projects = ( )=> {
                 <a href="https://www.w3schools.com">
                     <img src={ project1 } alt=""></img>
                 </a>
+                <a href="https://www.w3schools.com">
+                    <img src={ project1 } alt=""></img>
+                </a>
             </div>
         </C.Container>
     )
