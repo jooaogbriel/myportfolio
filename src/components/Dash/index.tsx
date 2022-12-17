@@ -17,7 +17,26 @@ export const Home = ( )=> {
                         <li><a href="www">Currículo</a></li>
                     </ul>
                 </nav>
+                <div>
+                <h1>Aqui estão meus melhores projetos</h1>
+
+                <a href="https://github.com/Kenzie-Academy-Brasil-Developers/api-kenziefood-m2-lara-plc">
+                    
+                </a>
+
+                <a href="https://www.w3schools.com">
+                    
+                </a>
+
+                <a href="https://www.w3schools.com">
+                    
+                </a>
+                <a href="https://www.w3schools.com">
+                    
+                </a>
+            </div>
                 </div>
+                
         </C.Container>
     )
 }
