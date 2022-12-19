@@ -4,6 +4,7 @@ import { Header } from './components/Header'
 import { Home } from './components/Dash'
 import { Projects } from './components/Profile';
 import { Tecs } from './components/Tecs';
+import { Final } from './components/Final';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
      <Home/>
      <Projects/>
      <Tecs/>
+     <Final/>
     </>
     
   );
