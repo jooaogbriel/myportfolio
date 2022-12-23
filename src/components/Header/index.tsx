@@ -4,7 +4,10 @@ export const Header = ( )=> {
     return (
         <C.Container>
             <header>
-                <h1>{'<João Gabriel/>'}</h1>
+                <h1><span className='purple'>{'<'}</span>
+                <span className='white'>João Gabriel</span>
+                <span className='purple'>{'/>'}</span>
+                </h1>
                 
                 <nav>
                 <ul>

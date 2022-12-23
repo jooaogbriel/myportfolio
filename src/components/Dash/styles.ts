@@ -8,15 +8,23 @@ export const Container = styled.div`
     flex-direction: column;
 }
 h1{
-    font-size: 50px;
-    color: rgb(107 33 168);
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 1px;
 }
 h2{
     color: white;
+    line-height: 1px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .intro{
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    line-height: 1px;
+    margin-top: 100px;
 }
 ul{
     display: flex;
@@ -34,7 +42,8 @@ li{
 }
 a{
     color: white;
-    font-weight: bold
+    font-weight: bold;
+    font-size: 20px;
 
 }
 .white{

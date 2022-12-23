@@ -22,5 +22,11 @@ export const Container = styled.div`
         color: white;
         font-weight: bold
     }
+    .white{
+    color: white;
+}
+.purple{
+    color: rgb(107 33 168);
+}
 
 `
