@@ -8,16 +8,19 @@ export const Container = styled.div`
     }
     h1{
         font-size: 25px;
+        color: white;
     }
     ul{
         display: flex;
-        
     }
     li{
         list-style-type: none;
         cursor: pointer;
         padding-left: 2rem;
-        
+    }
+    a{
+        color: white;
+        font-weight: bold
     }
 
 `
