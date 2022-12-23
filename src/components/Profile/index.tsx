@@ -7,7 +7,10 @@ export const Projects = ( )=> {
     return (
         <C.Container>
             <div className='main'>
-                <h1>Aqui estão alguns dos meus projetos</h1>
+                <div className='name'>
+                    <h1>Aqui estão alguns dos meus projetos</h1>
+                    <h1>👨🏻‍💻</h1>
+                </div>
                 <div className='img'>       
                 <a href="https://github.com/Kenzie-Academy-Brasil-Developers/api-kenziefood-m2-lara-plc">
                     <img src={ project1 } alt=""></img>
