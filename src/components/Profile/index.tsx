@@ -6,20 +6,21 @@ import project3 from '../../imgs/project3.png';
 export const Projects = ( )=> {
     return (
         <C.Container>
-            <div>
+            <div className='main'>
                 <h1>Aqui estão alguns dos meus projetos</h1>
-
+                <div className='img'>       
                 <a href="https://github.com/Kenzie-Academy-Brasil-Developers/api-kenziefood-m2-lara-plc">
                     <img src={ project1 } alt=""></img>
                 </a>
 
-                <a href="https://www.w3schools.com">
+                <a href="https://github.com/jooaogbriel/projeto-netflix">
                     <img src={ project2 } alt=""></img>
                 </a>
 
-                <a href="https://www.w3schools.com">
+                <a href="https://github.com/jooaogbriel/tela-login">
                     <img src={ project3 } alt=""></img>
                 </a>
+                </div>
             </div>
         </C.Container>
     )
