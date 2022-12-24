@@ -21,6 +21,10 @@ img{
     height: 200px;
     margin: 20px;
     margin-left: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: rgb(123 137 168);
 }
 h1{
     color: white;

@@ -23,8 +23,6 @@ h2{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    line-height: 1px;
-    margin-top: 100px;
 }
 ul{
     display: flex;
