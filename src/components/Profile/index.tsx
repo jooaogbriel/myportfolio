@@ -15,34 +15,34 @@ export const Projects = ( )=> {
                 <a href="https://github.com/Kenzie-Academy-Brasil-Developers/api-kenziefood-m2-lara-plc">
                     <img src={ project1 } alt=""></img>
                     <h3>Kenzie Food</h3>
-                    <p>Ecommerce de Alimentos</p>
-                    <li>
-                        <ul>HTML</ul>
-                        <ul>CSS</ul>
-                        <ul>Javascript</ul>
-                    </li>
+                    <p>Ecommerce de Alimentos.</p>
+                    <nav>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Javascript</span>
+                    </nav>
                 </a>
 
                 <a href="https://github.com/jooaogbriel/projeto-netflix">
                     <img src={ project2 } alt=""></img>
                     <h3>Netflix</h3>
-                    <p>Tela inicial da Netflix</p>
-                    <li>
-                        <ul>ReactJs</ul>
-                        <ul>TypeScript</ul>
-                        <ul>Styled-Components</ul>
-                    </li>
+                    <p>Tela inicial da Netflix.</p>
+                    <nav>
+                        <span>ReactJs</span>
+                        <span>TypeScript</span>
+                        <span>Styled-Components</span>
+                    </nav>
                 </a>
 
                 <a href="https://github.com/jooaogbriel/tela-login">
                     <img src={ project3 } alt=""></img>
                     <h3>Tela de Login</h3>
-                    <p>Tela de Login com tema League of Legends</p>
-                    <li>
-                        <ul>ReactJs</ul>
-                        <ul>Yup</ul>
-                        <ul>React Hook Form</ul>
-                    </li>
+                    <p>Tela de Login com tema League of Legends.</p>
+                    <nav>
+                        <span>ReactJs</span>
+                        <span>Yup</span>
+                        <span>React Hook Form</span>
+                    </nav>
                 </a>
                 </div>
             </div>

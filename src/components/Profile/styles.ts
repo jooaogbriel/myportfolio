@@ -13,7 +13,7 @@ export const Container = styled.div`
 .img{
     display: flex;
     align-items: center;
-    margin-left: 190px;
+    justify-content: center;
     
 }
 img{
@@ -28,5 +28,25 @@ img{
 }
 h1{
     color: white;
+}
+h3{
+    color: white;
+}
+p{
+    color: rgb(123 137 168);
+}
+nav{
+    color: white
+}
+span{
+    border-color: rgb(25 39 66);
+    border-style: solid;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: rgb(25 39 66);
+    color: white;
+    text-align: center;
+    margin: 5px;
+    border-width: 5px;
 }
 `
