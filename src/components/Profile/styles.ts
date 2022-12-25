@@ -25,6 +25,7 @@ img{
     border-style: solid;
     border-radius: 20px;
     border-color: rgb(123 137 168);
+
 }
 h1{
     color: white;
@@ -48,5 +49,6 @@ span{
     text-align: center;
     margin: 5px;
     border-width: 5px;
+    font-weight: 550;
 }
 `
