@@ -22,6 +22,8 @@ export const Tecs = ( )=> {
                 <img src={ node } alt=""></img>
                 <img src={ sql } alt=""></img>
                 <img src={ git } alt=""></img>
+                <img src={ sql } alt=""></img>
+                <img src={ git } alt=""></img>
                 </div>
            </div>
        </C.Container>
