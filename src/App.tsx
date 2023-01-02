@@ -14,17 +14,7 @@ function App() {
      <Projects/>
      <Tecs/>
      <Final/>
-     <Header/>
-     <Home/>
-     <Projects/>
-     <Tecs/>
-     <Final/>
-     <Header/>
-     <Home/>
-     <Projects/>
-     <Tecs/>
-     <Final/>
-
+     
     </>
     
   );
