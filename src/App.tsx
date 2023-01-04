@@ -14,6 +14,7 @@ function App() {
      <Projects/>
      <Tecs/>
      <Final/>
+     <Final/>
      
     </>
     
