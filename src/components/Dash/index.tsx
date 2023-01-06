@@ -6,10 +6,12 @@ export const Home = ( )=> {
         <div className='main'>
             <div className='intro'>
                 <h2>Hello Word! 👋</h2>
-                <h1><span className='white'>Me chamo </span>
-                <span className='purple'>João Gabriel </span></h1>
-                <h1><span className='white'>Desenvolvedor </span>
-                <span className='purple'>Full Stack </span></h1>
+                <div className='name'>
+                    <h1><span className='white'>Me chamo </span>
+                    <span className='purple'>João Gabriel </span></h1>
+                    <h1><span className='white'>Desenvolvedor </span>
+                    <span className='purple'>Full Stack </span></h1>
+                </div>
                 <h2>com 1 ano de experiência 🚀</h2>
             </div>
 

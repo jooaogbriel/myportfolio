@@ -6,16 +6,17 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
 h1{
     font-weight: 700;
     font-size: 5rem;
-    line-height: 1px;
+   
 }
 h2{
     color: white;
     line-height: 1px;
-    font-size: 30px;
+    font-size: 35px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .intro{
@@ -23,6 +24,11 @@ h2{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
+}
+.name{
+    line-height: 15px;
+    align-items: center;
 }
 ul{
     display: flex;
@@ -37,6 +43,7 @@ li{
     border-style: solid;
     border-radius: 20px;
     margin: 10px;
+    transition: 0.5s;
 }
 a{
     color: white;
