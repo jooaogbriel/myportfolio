@@ -8,8 +8,8 @@ export const Projects = ( )=> {
         <C.Container>
             <div className='main'>
                 <div className='name'>
-                    <h1>Aqui estão alguns dos meus projetos</h1>
-                    <h1>👨🏻‍💻</h1>
+                    <h1>Aqui estão alguns dos meus projetos.</h1>
+                    <hr/>
                 </div>
                 <div className='img'>       
                 <a href="https://github.com/Kenzie-Academy-Brasil-Developers/api-kenziefood-m2-lara-plc">
