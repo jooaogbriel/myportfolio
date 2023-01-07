@@ -9,8 +9,7 @@ export const Final = ( )=> {
                 <p>joao_woork@outlook.com</p>
                 <p>+5519998748169</p>
             </div>
-                
-
+            <hr/>
                 <p>made by João Gonçalves 👨🏻‍💻 🚀</p>
             </div>
         </C.Container>

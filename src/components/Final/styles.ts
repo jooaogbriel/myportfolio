@@ -11,6 +11,11 @@ h1{
     color: white;
    
 }
+hr {
+    border-width: 2px;
+    width: 50%;
+    border-color: #6833E4;
+}
 .info{
     display: flex;
     justify-content: space-between;
