@@ -8,6 +8,7 @@ export const Final = ( )=> {
             <div className='info'>
                 <p>joao_woork@outlook.com</p>
                 <p>+5519998748169</p>
+                <hr/>
             </div>
             <hr/>
                 <p>made by João Gonçalves 👨🏻‍💻 🚀</p>
