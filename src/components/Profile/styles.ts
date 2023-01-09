@@ -25,7 +25,13 @@ img{
     border-style: solid;
     border-radius: 20px;
     border-color: rgb(123 137 168);
+    overflow-clip-margin: content-box;
+    overflow: clip;
 
+}
+img:hover{
+    transform: scale(1,1.1);
+   
 }
 h1{
     color: white;

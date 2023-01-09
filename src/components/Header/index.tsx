@@ -1,6 +1,5 @@
 import * as C from './styles'
 
-
 export const Header = ( )=> {
     return (
         <C.Container>
@@ -12,9 +11,9 @@ export const Header = ( )=> {
                     </h1>
                     <nav>
                     <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/">Projetos</a></li>
-                        <li><a href="/">Experiências</a></li>
+                        <li> <a href="/">Home</a> </li>
+                        <li> <a href="/">Projetos</a> </li>
+                        <li> <a href="/">Experiências</a> </li>
                     </ul>
                     </nav>
                    

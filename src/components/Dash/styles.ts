@@ -45,6 +45,10 @@ li{
     margin: 10px;
     transition: 0.5s;
 }
+li:hover{
+    background-color: rgb(107 33 168);
+}
+
 a{
     color: white;
     font-weight: bold;

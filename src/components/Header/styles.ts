@@ -44,6 +44,10 @@ nav ul li a{
     text-decoration: none;
     color: #fff;
     font-size: 17px;
+    color: #a9a9a9;
+}
+a:hover{
+    color: white;
 }
 .white{
     color: white;
