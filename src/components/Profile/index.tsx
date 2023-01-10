@@ -45,6 +45,7 @@ export const Projects = ( )=> {
                     </nav>
                 </a>
                 </div>
+                <h4>Tem muito mais no meu <a className='git' href='https://github.com/jooaogbriel'>GitHub!</a></h4>
             </div>
         </C.Container>
     )

@@ -35,6 +35,7 @@ img:hover{
 }
 h1{
     color: white;
+    
 }
 hr {
     border-width: 2px;
@@ -61,5 +62,12 @@ span{
     margin: 5px;
     border-width: 5px;
     font-weight: 550;
+}
+h4{
+    color: rgb(123 137 168);
+    font-style: italic;
+}
+.git{
+    text-decoration: underline
 }
 `
