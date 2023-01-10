@@ -17,4 +17,7 @@ color: white;
 display: flex;
 
 }
+.figma{
+    width: 100px;
+}
 `

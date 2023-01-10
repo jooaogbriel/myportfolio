@@ -1,12 +1,12 @@
 import * as C from './styles';
-import html from '../../imgs/html.png';
-import css from '../../imgs/css.png';
-import js from '../../imgs/js.png';
-import react from '../../imgs/react.png';
-import ts from '../../imgs/ts.png';
-import node from '../../imgs/node.png';
-import sql from '../../imgs/sql.png';
-import git from '../../imgs/git.png';
+import html from '../../imgs/html5.svg';
+import css from '../../imgs/css3.svg';
+import js from '../../imgs/js.svg';
+import react from '../../imgs/react.svg';
+import ts from '../../imgs/ts.svg';
+import node from '../../imgs/nodejs.svg';
+import git from '../../imgs/git.svg';
+import figma from '../../imgs/figma.svg'
 
 export const Tecs = ( )=> {
     return (
@@ -23,8 +23,8 @@ export const Tecs = ( )=> {
                     <img src={ react } alt=""></img>
                     <img src={ ts } alt=""></img>
                     <img src={ node } alt=""></img>
-                    <img src={ sql } alt=""></img>
                     <img src={ git } alt=""></img>
+                    <img className='figma' src={ figma } alt=""></img>
                 </div>
            </div>
        </C.Container>
