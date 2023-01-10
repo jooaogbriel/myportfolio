@@ -6,6 +6,9 @@
 }
 body{
   background-color: #121214;
+  background-image: url("./imgs/coder.svg"), url("./imgs/dino.svg") ,url("./imgs/codes.svg") url("./imgs/coding.svg") url("./imgs/fillStar.svg") url("./imgs/jsback.svg") url("./imgs/laptop.svg") url("./imgs/youtube.svg") url("./imgs/paintbrush.svg") url("./imgs/lineBreak.svg") url("./imgs/html.svg");
+  background-repeat: no-repeat, repeat-x;
+  background-position: top right, center;
 }
 .App-logo {
   height: 40vmin;
