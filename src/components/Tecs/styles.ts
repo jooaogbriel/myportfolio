@@ -15,6 +15,7 @@ color: white;
 }
 .tecs{
 display: flex;
+flex-direction: column;
 
 }
 .figma{

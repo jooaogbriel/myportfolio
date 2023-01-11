@@ -4,21 +4,21 @@ export const Container = styled.div`
 .main{
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
 }
 .name{
     display: flex;
     align-items: center;
-    justify-content: space-around;
 }
 .img{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
     
 }
 img{
-    width: 320px;
-    height: 200px;
+    width: 370px;
+    height: 224px;
     margin: 20px;
     margin-left: 20px;
     border-width: 1px;
@@ -28,6 +28,7 @@ img{
     overflow-clip-margin: content-box;
     overflow: clip;
 
+
 }
 img:hover{
     transform: scale(1,1.1);
@@ -35,11 +36,12 @@ img:hover{
 }
 h1{
     color: white;
+    margin-left: 116px;
     
 }
 hr {
     border-width: 2px;
-    width: 50%;
+    width: 37%;
     border-color: #6833E4;
 }
 h3{

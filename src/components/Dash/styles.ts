@@ -1,12 +1,17 @@
 import styled from "styled-components";
 
+
+
 export const Container = styled.div`
+body{
+    
+}
 .main{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
+    background-image: url("../../imgs/coder.svg");
 }
 h1{
     font-weight: 700;
@@ -46,7 +51,8 @@ li{
     transition: 0.5s;
 }
 li:hover{
-    background-color: rgb(107 33 168);
+    background-color: #6833E4;
+    border-color:#6833E4;
 }
 
 a{
