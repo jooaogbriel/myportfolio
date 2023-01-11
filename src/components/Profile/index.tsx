@@ -12,8 +12,8 @@ export const Projects = ( )=> {
                     <hr/>
                 </div>
                 <div className='img'> 
-                <div>
-                <a href="https://github.com/Kenzie-Academy-Brasil-Developers/api-kenziefood-m2-lara-plc">
+                <div className='infos'>
+                <a className='principal' href="https://github.com/Kenzie-Academy-Brasil-Developers/api-kenziefood-m2-lara-plc">
                     <img src={ project1 } alt=""></img>
                     <h3>Kenzie Food</h3>
                     </a>
@@ -25,8 +25,8 @@ export const Projects = ( )=> {
                     </nav>
                 </div>      
 
-                <div>
-                <a href="https://github.com/jooaogbriel/projeto-netflix">
+                <div className='infos'>
+                <a className='principal' href="https://github.com/jooaogbriel/projeto-netflix">
                     <img src={ project2 } alt=""></img>
                     <h3>Netflix</h3>
                     </a>
@@ -39,8 +39,8 @@ export const Projects = ( )=> {
                 </div>
 
             
-                <div>
-                <a href="https://github.com/jooaogbriel/tela-login">
+                <div className='infos'>
+                <a className='principal' href="https://github.com/jooaogbriel/tela-login">
                     <img src={ project3 } alt=""></img>
                     <h3>Tela de Login</h3>
                 </a>
@@ -54,7 +54,10 @@ export const Projects = ( )=> {
                 
 
                 </div>
+                <div className='final'>
                 <h4>Tem muito mais no meu <a className='git' href='https://github.com/jooaogbriel'>GitHub!</a></h4>
+                </div> 
+               
             </div>
         </C.Container>
     )

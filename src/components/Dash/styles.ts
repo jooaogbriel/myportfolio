@@ -48,7 +48,7 @@ li{
     border-style: solid;
     border-radius: 20px;
     margin: 10px;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 li:hover{
     background-color: #6833E4;

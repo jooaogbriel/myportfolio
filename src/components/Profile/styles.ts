@@ -16,23 +16,28 @@ export const Container = styled.div`
     justify-content:center;
     
 }
+.infos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 img{
     width: 370px;
     height: 224px;
-    margin: 20px;
-    margin-left: 20px;
     border-width: 1px;
     border-style: solid;
     border-radius: 20px;
     border-color: rgb(123 137 168);
-    overflow-clip-margin: content-box;
-    overflow: clip;
-
-
 }
 img:hover{
     transform: scale(1,1.1);
-   
 }
 h1{
     color: white;
@@ -46,9 +51,14 @@ hr {
 }
 h3{
     color: white;
+    line-height: 1px;
+    margin-top: 30px;
+    font-weight: 700;
+
 }
 p{
     color: rgb(123 137 168);
+    font-size: 14px; 
 }
 nav{
     color: white
@@ -60,16 +70,23 @@ span{
     cursor: pointer;
     background-color: rgb(25 39 66);
     color: white;
-    text-align: center;
-    margin: 5px;
     border-width: 5px;
     font-weight: 550;
+    font-size: 14px;
+    margin-right: 8px;
 }
 h4{
     color: rgb(123 137 168);
     font-style: italic;
 }
 .git{
-    text-decoration: underline
+    text-decoration: underline;
+}
+.final{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
 }
 `
