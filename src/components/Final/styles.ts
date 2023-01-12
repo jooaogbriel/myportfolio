@@ -25,5 +25,16 @@ p{
     
     margin: 10px;
 }
+h1{
+    font-size: 3.5rem;
+    line-height: 1;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
 
 `
