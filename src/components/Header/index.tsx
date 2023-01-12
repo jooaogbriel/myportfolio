@@ -13,7 +13,7 @@ export const Header = ( )=> {
                     <ul>
                         <li> <a href="/">Home</a> </li>
                         <li> <a href="/">Projetos</a> </li>
-                        <li> <a href="/">Experiências</a> </li>
+                        <li> <a href="/">Tecnologias</a> </li>
                     </ul>
                     </nav>
                    
