@@ -13,18 +13,52 @@ export const Tecs = ( )=> {
        <C.Container>
            <div className='main'>
                <div className='name'>
-                   <h2>Algumas Tecnologias que eu utilizo.</h2>
+                   <h1>Algumas tecnologias que eu utilizo.</h1>
                </div>
 
                 <div className='tecs'>
-                    <img src={ html } alt=""></img>
-                    <img src={ css } alt=""></img>
-                    <img src={ js } alt=""></img>
-                    <img src={ react } alt=""></img>
-                    <img src={ ts } alt=""></img>
-                    <img src={ node } alt=""></img>
-                    <img src={ git } alt=""></img>
-                    <img className='figma' src={ figma } alt=""></img>
+                    <div className='container1'>
+                        <div className='blocos'>
+                            <img src={ html } alt=""></img>
+                            <p>HTML</p>
+                        </div>
+
+                        <div className='blocos'>
+                            <img src={ css } alt=""></img>
+                            <p>CSS</p>
+                        </div>
+
+                        <div className='blocos'>
+                            <img src={ js } alt=""></img>
+                            <p>Javascript</p>
+                        </div>
+
+                        <div className='blocos'>
+                            <img src={ react } alt=""></img>
+                            <p>React</p>
+                        </div>
+                    </div>
+                    <div className='container2'>
+                    <div className='blocos'>
+                        <img src={ ts } alt=""></img>
+                        <p>Typescript</p>
+                    </div>
+
+                    <div className='blocos'>
+                        <img src={ node } alt=""></img>
+                        <p>NodeJS</p>
+                    </div>
+
+                    <div className='blocos'>
+                        <img src={ git } alt=""></img>
+                        <p>Git</p>
+                    </div>
+
+                    <div className='blocos'>
+                        <img className='figma' src={ figma } alt=""></img>
+                        <p>Figma</p>
+                    </div>
+                    </div>
                 </div>
            </div>
        </C.Container>
