@@ -18,9 +18,9 @@ export const Home = ( )=> {
             <div className='list'>
                 <nav>
                     <ul>
-                        <li><a href="https://github.com/jooaogbriel">GitHub</a></li>
-                        <li><a href="https://www.linkedin.com/in/jooaogbriel/">Linkedin</a></li>
-                        <li><a href="https://docs.google.com/document/d/1_YM8RX_kbVGYHb7gjxTe2faVuteo3Lu5MXvlJ2znuI0/edit?usp=sharing">Currículo</a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/jooaogbriel" >GitHub</a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jooaogbriel/">Linkedin</a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1_YM8RX_kbVGYHb7gjxTe2faVuteo3Lu5MXvlJ2znuI0/edit?usp=sharing">Currículo</a></li>
                     </ul>
                 </nav>
                 </div>
