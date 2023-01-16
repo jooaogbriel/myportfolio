@@ -13,7 +13,7 @@ export const Projects = ( )=> {
                 </div>
                 <div className='img'> 
                 <div className='infos'>
-                <a className='principal' href="https://github.com/Kenzie-Academy-Brasil-Developers/api-kenziefood-m2-lara-plc">
+                <a className='principal' target="_blank" rel="noopener noreferrer" href="https://github.com/Kenzie-Academy-Brasil-Developers/api-kenziefood-m2-lara-plc">
                     <img src={ project1 } alt=""></img>
                     <h3>Kenzie Food</h3>
                     </a>
@@ -26,7 +26,7 @@ export const Projects = ( )=> {
                 </div>      
 
                 <div className='infos'>
-                <a className='principal' href="https://github.com/jooaogbriel/projeto-netflix">
+                <a className='principal' target="_blank" rel="noopener noreferrer" href="https://github.com/jooaogbriel/projeto-netflix">
                     <img src={ project2 } alt=""></img>
                     <h3>Netflix</h3>
                     </a>
@@ -40,7 +40,7 @@ export const Projects = ( )=> {
 
             
                 <div className='infos'>
-                <a className='principal' href="https://github.com/jooaogbriel/tela-login">
+                <a className='principal' target="_blank" rel="noopener noreferrer" href="https://github.com/jooaogbriel/tela-login">
                     <img src={ project3 } alt=""></img>
                     <h3>Tela de Login</h3>
                 </a>
@@ -55,7 +55,7 @@ export const Projects = ( )=> {
 
                 </div>
                 <div className='final'>
-                <h4>Tem muito mais no meu <a className='git' href='https://github.com/jooaogbriel'>GitHub!</a></h4>
+                <h4>Tem muito mais no meu <a target="_blank" rel="noopener noreferrer" className='git' href='https://github.com/jooaogbriel'>GitHub!</a></h4>
                 </div> 
                
             </div>
