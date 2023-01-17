@@ -58,10 +58,7 @@ export const Tecs = ( )=> {
                         <img className='figma' src={ figma } alt=""></img>
                         <p>Figma</p>
                     </div>
-                    <div className='blocos'>
-                        <img className='figma' src={ figma } alt=""></img>
-                        <p>Figma</p>
-                    </div>
+                    
                     </div>
                 </div>
            </div>
