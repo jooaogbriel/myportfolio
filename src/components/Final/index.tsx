@@ -17,10 +17,7 @@ export const Final = ( )=> {
                         <img className='mini-img' src={email} alt="" />
                         <p>joao_woork@outlook.com</p>
                     </div>
-                    <div className='email'>
-                        <img className='mini-img' src={email} alt="" />
-                        <p>joao_woork@outlook.com</p>
-                    </div>
+                    
 
                     <div className='tel'>
                         <img className='mini-img' src={tel} alt="" />
