@@ -15,6 +15,9 @@ export const Tecs = ( )=> {
                <div className='name'>
                    <h1>Algumas tecnologias que eu utilizo.</h1>
                </div>
+               <div className='name'>
+                   <h1>Algumas tecnologias que eu utilizo.</h1>
+               </div>
 
                 <div className='tecs'>
                     <div className='container1'>
