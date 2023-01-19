@@ -17,7 +17,7 @@ export const Projects = ( )=> {
                     <img src={ project1 } alt=""></img>
                     <h3>Kenzie Food</h3>
                     </a>
-                    <p>Aplicativo de Habitos diarios.</p>
+                    <p>Ecommerce de Alimentos.</p>
                     <nav>
                         <span>HTML</span>
                         <span>CSS</span>
