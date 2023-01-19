@@ -15,7 +15,7 @@ export const Projects = ( )=> {
                 <div className='infos'>
                 <a className='principal' target="_blank" rel="noopener noreferrer" href="https://github.com/Kenzie-Academy-Brasil-Developers/api-kenziefood-m2-lara-plc">
                     <img src={ project1 } alt=""></img>
-                    <h3>NLW SETUP HABIT</h3>
+                    <h3>Kenzie Food</h3>
                     </a>
                     <p>Ecommerce de Alimentos.</p>
                     <nav>
