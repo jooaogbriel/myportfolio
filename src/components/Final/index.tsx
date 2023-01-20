@@ -22,7 +22,7 @@ export const Final = ( )=> {
                     <div className='tel'>
                         <img className='mini-img' src={tel} alt="" />
                         <p>+5519998748169</p>
-                        <p>+5519998748169</p>
+                        
                         
                     </div>
                     
