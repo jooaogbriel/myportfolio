@@ -15,13 +15,13 @@ export const Projects = ( )=> {
                 <div className='infos'>
                 <a className='principal' target="_blank" rel="noopener noreferrer" href="https://github.com/Kenzie-Academy-Brasil-Developers/api-kenziefood-m2-lara-plc">
                     <img src={ project1 } alt=""></img>
-                    <h3>Nlw Setup</h3>
+                    <h3>Nlw Setup / Mobile</h3>
                     </a>
                     <p>Uma aplicação de controle de hábitos completa.</p>
                     <nav>
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>Javascript</span>
+                        <span>React Native</span>
+                        <span>ReactJS</span>
+                        <span>NodeJS</span>
                     </nav>
                 </div>      
 
@@ -32,7 +32,7 @@ export const Projects = ( )=> {
                     </a>
                     <p>Tela inicial da Netflix.</p>
                     <nav>
-                        <span>ReactJs</span>
+                        <span>ReactJS</span>
                         <span>TypeScript</span>
                         <span>Styled-Components</span>
                     </nav>
@@ -46,7 +46,7 @@ export const Projects = ( )=> {
                 </a>
                     <p>Tela de Login com tema League of Legends.</p>
                     <nav>
-                        <span>ReactJs</span>
+                        <span>ReactJS</span>
                         <span>Yup</span>
                         <span>React Hook Form</span>
                     </nav>
