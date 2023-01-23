@@ -45,6 +45,7 @@ nav ul li a{
     color: #fff;
     font-size: 17px;
     color: #a9a9a9;
+    font-weight: 500;
 }
 a:hover{
     color: white;
