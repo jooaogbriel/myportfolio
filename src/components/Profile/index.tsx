@@ -1,7 +1,7 @@
 import * as C from './styles';
-import project1 from '../../imgs/proj1.jpeg';
 import project2 from '../../imgs/netflix.png';
 import project3 from '../../imgs/project3.png';
+import project1 from '../../imgs/nlw.png'
 
 export const Projects = ( )=> {
     return (
