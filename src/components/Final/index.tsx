@@ -18,12 +18,9 @@ export const Final = ( )=> {
                         <p>joao_woork@outlook.com</p>
                     </div>
                     
-
                     <div className='tel'>
                         <img className='mini-img' src={tel} alt="" />
-                        <p>+5519998748169</p>
-                        
-                        
+                        <p>+55 (19) 998748169</p>
                     </div>
                     
                     
