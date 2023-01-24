@@ -33,11 +33,15 @@ img{
     height: 224px;
     border-width: 1px;
     border-style: solid;
-    border-radius: 20px;
+    border-radius: 0.75rem;
     border-color: rgb(123 137 168);
+    padding: 3px;
 }
 img:hover{
-    transform: scale(1,1.1);
+    transform: translateY(-0.6rem);
+    opacity: 0.75;
+    border-color:#7c3aed ;
+    transition: 0.2s;
 }
 h1{
     color: white;
