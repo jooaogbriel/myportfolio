@@ -52,6 +52,7 @@ hr {
     border-width: 2px;
     width: 37%;
     border-color: #6833E4;
+    color: #6833E4;
 }
 h3{
     color: white;

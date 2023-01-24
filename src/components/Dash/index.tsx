@@ -1,4 +1,9 @@
 import * as C from './styles'
+import paint from '../../imgs/paintbrush.svg'
+import coding from '../../imgs/coding.svg'
+import dino from '../../imgs/dino.svg'
+import jsback from '../../imgs/jsback.svg'
+import html from '../../imgs/html.svg'
 
 export const Home = ( )=> {
     return (
@@ -14,6 +19,12 @@ export const Home = ( )=> {
                 </div>
                 <h2>com 1 ano de experiência 🚀</h2>
             </div>
+
+            <img src={paint} alt=''></img>
+            <img className='coding' src={coding} alt=''></img>
+            <img  className='dino' src={dino} alt=''></img>
+            <img  className='html' src={html} alt=''></img>
+            <img  className='js' src={jsback} alt=''></img>
 
             <div className='list'>
                 <nav>

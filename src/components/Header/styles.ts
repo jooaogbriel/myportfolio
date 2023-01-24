@@ -31,6 +31,9 @@ export const Container = styled.div`
 h1{
     font-size: 25px;
 }
+h1:hover{
+    cursor: pointer;
+}
 nav{
     flex: 1;
     text-align: right;

@@ -51,6 +51,10 @@ span{
     font-weight: 500;
     
 }
+.name:hover{
+    color: #6833E4;
+    cursor: pointer;
+}
 .tel{
     display: flex;
     align-items: center;
