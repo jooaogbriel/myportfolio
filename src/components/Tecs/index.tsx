@@ -8,6 +8,11 @@ import node from '../../imgs/nodejs.svg';
 import git from '../../imgs/git.svg';
 import figma from '../../imgs/figma.svg'
 
+import fillStar from '../../imgs/fillStar.svg'
+import laptop from '../../imgs/laptop.svg'
+import youtube from '../../imgs/youtube.svg'
+import coder from '../../imgs/coder.svg'
+
 export const Tecs = ( )=> {
     return (
        <C.Container>
@@ -15,6 +20,11 @@ export const Tecs = ( )=> {
                <div className='name'>
                    <h1>Algumas tecnologias que eu utilizo.</h1>
                </div>
+
+               <img className='fillStar' src={fillStar} alt="" />
+               <img className='laptop' src={laptop} alt="" />
+               <img className='youtube' src={youtube} alt="" />
+               <img className='coder' src={coder} alt="" />
                
 
                 <div className='tecs'>

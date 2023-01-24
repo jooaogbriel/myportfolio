@@ -33,6 +33,34 @@ p{
     font-size: .75rem;
     line-height: 1rem;
 }
+.fillStar{
+    position: absolute;
+    left: 580px;
+    top: 1265px;
+    width: 90px;
+}
+.laptop{
+    position: absolute;
+    right: 600px;
+    width: 150px;
+    height: 150px;
+    top: 1300px;
+    
+}
+.youtube{
+    position: absolute;
+    right: 900px;
+    top: 1400px;
+    width: 80px;
+    height: 80px;
+}
+.coder{
+    position: absolute;
+    right: 1100px;
+    top: 1350px;
+    width: 200px;
+    height: 200px;
+}
 .container1{
     display: flex;
    

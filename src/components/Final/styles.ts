@@ -36,7 +36,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 100px;
     margin-bottom: 25px;
 }
 span{
