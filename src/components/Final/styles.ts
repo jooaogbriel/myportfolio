@@ -4,8 +4,8 @@ export const Container = styled.div`
 .main{
     display: flex;
     flex-direction: column;
-    
     align-items: center;
+    justify-content: center;
 }
 h1{
     color: white;
@@ -67,12 +67,10 @@ span{
     width: 20px;
     height: 20px;
 }
-@media (max-width: 768px) {
-    .img {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+@media (max-width: 375px) {
+    h1 {
+        font-size: 30px;
+        padding: 10px;
     }
 }
 
