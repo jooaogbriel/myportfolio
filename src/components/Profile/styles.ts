@@ -141,4 +141,33 @@ h4{
         width: 340px;
     }
 }
+@media (max-width: 768px) {
+    .name{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    h1{
+        font-size: 17px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-left: 480px;
+        margin-top: 60px;
+    }
+    .img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    img{
+        width: 340px;
+    }
+    hr{
+       
+    }
+}
 `

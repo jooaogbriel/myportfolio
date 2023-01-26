@@ -83,4 +83,14 @@ a:hover{
         align-items: center;
     }
 }
+@media (max-width: 768px) {
+    h1{
+        margin-left: 10px;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
 `
