@@ -73,5 +73,11 @@ span{
         padding: 10px;
     }
 }
+@media (max-width: 425px) {
+    h1 {
+        font-size: 30px;
+        padding: 10px;
+    }
+}
 
 `

@@ -73,4 +73,14 @@ a:hover{
         align-items: center;
     }
 }
+@media (max-width: 425px) {
+    h1{
+        margin-left: 10px;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
 `

@@ -88,4 +88,16 @@ p{
     width: 0px;
     }
 }
+@media (max-width: 425px){
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .fillStar{
+        position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 0px;
+    }
+}
 `

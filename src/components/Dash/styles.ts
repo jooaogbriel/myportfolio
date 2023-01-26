@@ -167,4 +167,54 @@ img{
       justify-content: center;
    }
 }
+@media (max-width: 425px) {
+    .intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    img, .html,.js,.dino{
+        width: 1px;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    h1{
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 10px;
+        
+    }
+    span{
+        padding: 5px;
+    }
+    .purple{
+        padding: 5px;
+        margin-top: 10px;
+    }
+    .white{
+        padding: 10px;
+        font-size: 40px;
+    }
+    .name{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .media{
+        font-size: 20px;
+    }
+    
+   a{
+       font-size: 15px;
+   }
+   ul{
+       display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+}
 `
