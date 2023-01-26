@@ -76,4 +76,10 @@ p{
     align-items: center;
     padding: 20px;
 }
+@media (max-width: 375px){
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+}
 `
