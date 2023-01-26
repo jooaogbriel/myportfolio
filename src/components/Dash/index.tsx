@@ -17,7 +17,7 @@ export const Home = ( )=> {
                     <h1><span className='white'>Desenvolvedor </span>
                     <span className='purple'>Full Stack </span></h1>
                 </div>
-                <h2>com 1 ano de experiência 🚀</h2>
+                <h2 className='media'>com 1 ano de experiência 🚀</h2>
             </div>
 
             <img src={paint} alt=''></img>

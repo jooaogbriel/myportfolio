@@ -67,5 +67,13 @@ span{
     width: 20px;
     height: 20px;
 }
+@media (max-width: 768px) {
+    .img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
 
 `

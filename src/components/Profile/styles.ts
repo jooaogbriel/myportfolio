@@ -5,6 +5,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    width: 100%;
 }
 .name{
     display: flex;
@@ -14,6 +15,7 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content:center;
+    width: 100%;
     
 }
 .infos{
@@ -27,6 +29,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 100%;
 }
 img{
     width: 370px;
@@ -93,5 +96,27 @@ h4{
     justify-content: center;
     flex-direction: row;
     padding: 10px;
+}
+@media (max-width: 768px) {
+    .name{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    h1{
+        font-size: 17px;
+        width: 100%;
+    }
+    .img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    img{
+        width: 340px;
+    }
 }
 `

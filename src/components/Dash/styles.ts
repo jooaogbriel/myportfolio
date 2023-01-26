@@ -3,8 +3,11 @@ import styled from "styled-components";
 
 
 export const Container = styled.div`
+html{
+    font-size: 62.5%;
+}
 body{
-    
+    font-size: 1.6rem;
 }
 .main{
     display: flex;
@@ -12,18 +15,17 @@ body{
     justify-content: center;
     flex-direction: column;
     background-image: url("../../imgs/coder.svg");
+    width: 100%;
+    
 }
 h1{
     font-weight: 700;
     font-size: 5rem;
-
-   
 }
 h2{
     color: white;
     line-height: 1px;
-   
-    font-size: 35px;
+    font-size: 2rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .intro{
@@ -31,6 +33,8 @@ h2{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
+   
 }
 .name{
     line-height: 15px;
@@ -113,4 +117,54 @@ img{
     color: rgb(107 33 168);
 }
 
+@media (max-width: 375px) {
+    .intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    img, .html,.js,.dino{
+        width: 1px;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    h1{
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 10px;
+        
+    }
+    span{
+        padding: 5px;
+    }
+    .purple{
+        padding: 5px;
+        margin-top: 10px;
+    }
+    .white{
+        padding: 10px;
+        font-size: 40px;
+    }
+    .name{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .media{
+        font-size: 20px;
+    }
+    
+   a{
+       font-size: 15px;
+   }
+   ul{
+       display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+}
 `

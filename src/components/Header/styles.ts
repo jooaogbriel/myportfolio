@@ -8,6 +8,7 @@ export const Container = styled.div`
 }
 .container{
     width: 100%;
+  
     padding-left: 8%;
     padding-right: 8%;
     box-sizing: border-box;
@@ -15,6 +16,7 @@ export const Container = styled.div`
     margin-bottom: 100px;
 }
 .navbar{
+    width: 100%;
     height: 12%;
     display: flex;
     align-items: center;
@@ -29,7 +31,7 @@ export const Container = styled.div`
     margin-left: 40px;
 }
 h1{
-    font-size: 25px;
+    font-size: 24px;
 }
 h1:hover{
     cursor: pointer;
@@ -37,6 +39,9 @@ h1:hover{
 nav{
     flex: 1;
     text-align: right;
+    width: 100%;
+   
+    
 }
 nav ul li{
     list-style: none;
@@ -46,7 +51,6 @@ nav ul li{
 nav ul li a{ 
     text-decoration: none;
     color: #fff;
-    font-size: 17px;
     color: #a9a9a9;
     font-weight: 500;
 }
@@ -58,5 +62,15 @@ a:hover{
 }
 .purple{
     color: rgb(107 33 168);
+}
+@media (max-width: 375px) {
+    h1{
+        margin-left: 10px;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 `
