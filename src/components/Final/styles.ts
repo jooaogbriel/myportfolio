@@ -20,7 +20,6 @@ hr {
 .info{
     
     justify-content: space-between;
-
     
 }
 p{
@@ -85,5 +84,4 @@ span{
         padding: 10px;
     }
 }
-
 `

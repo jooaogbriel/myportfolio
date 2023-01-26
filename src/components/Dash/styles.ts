@@ -59,12 +59,10 @@ li:hover{
     background-color: #6833E4;
     border-color:#6833E4;
 }
-
 a{
     color: white;
     font-weight: bold;
     font-size: 20px;
-
 }
 img{
     position: absolute;
@@ -73,7 +71,6 @@ img{
     transform: translate(0px);
     animation: float 5s ease-in-out infinite;
 }
-
 @keyframes float {
     0%{
         transform: translateY(0px);
@@ -85,7 +82,6 @@ img{
         transform: translateY(0px);
     }
 }
-
 .coding{
     position: absolute;
     left: 250px;
@@ -116,7 +112,6 @@ img{
 .purple{
     color: rgb(107 33 168);
 }
-
 @media (max-width: 375px) {
     .intro {
         display: flex;
@@ -231,7 +226,7 @@ img{
         right: 0;
     }
     h1{
-        font-size: 60px;
+        font-size: 50px;
         display: flex;
         align-items: center;
         line-height: 1px;
@@ -242,11 +237,11 @@ img{
     }
     .purple{
         padding: 5px;
-        margin-top: 10px;
+        margin-top: 20px;
     }
     .white{
-        padding: 10px;
-        font-size: 60px;
+        padding: 20px;
+        font-size: 50px;
     }
     .name{
         display: flex;

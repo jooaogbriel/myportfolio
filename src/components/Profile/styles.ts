@@ -23,7 +23,6 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: flex-start;
     margin: 20px;
-
 }
 .principal{
     display: flex;
@@ -62,7 +61,6 @@ h3{
     line-height: 1px;
     margin-top: 30px;
     font-weight: 700;
-
 }
 p{
     color: rgb(123 137 168);
@@ -129,6 +127,7 @@ h4{
     h1{
         font-size: 17px;
         width: 100%;
+        margin-left: 10px;
     }
     .img {
         display: flex;
@@ -166,8 +165,35 @@ h4{
     img{
         width: 340px;
     }
+}
+@media (max-width: 1024px) {
+    .name{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    h1{
+        font-size: 20px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+        margin-top: 60px;
+    }
+    .img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    img{
+        width: 300px;
+    }
     hr{
-       
+       width:55%
+    }
+    span{
+        font-size: 12px;
     }
 }
 `

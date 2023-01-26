@@ -11,13 +11,10 @@ export const Container = styled.div`
 .name{
 display: flex;
 color: white;
-
 }
 .tecs{
 display: flex;
 flex-direction: column;
-
-
 }
 h1{
     margin-right:100px;
@@ -69,7 +66,6 @@ p{
     display: flex;
     
 }
-
 .blocos{
     display: flex;
     flex-direction: column;
