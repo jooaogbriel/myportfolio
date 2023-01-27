@@ -30,7 +30,7 @@ export const Projects = ( )=> {
                     <img src={ project2 } alt=""></img>
                     <h3>Netflix</h3>
                     </a>
-                    <p>Tela inicial da Netflix.</p>
+                    <p>Tela inicial da Netflix..</p>
                     <nav>
                         <span>ReactJS</span>
                         <span>TypeScript</span>
