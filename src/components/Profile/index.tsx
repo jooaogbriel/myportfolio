@@ -18,6 +18,7 @@ export const Projects = ( )=> {
                     <h3>Nlw Setup / Mobile</h3>
                     </a>
                     <p>Uma aplicação de controle de hábitos completa.</p>
+                    <p>Uma aplicação de controle de hábitos completa.</p>
                     <nav>
                         <span>React Native</span>
                         <span>ReactJS</span>
@@ -30,7 +31,7 @@ export const Projects = ( )=> {
                     <img src={ project2 } alt=""></img>
                     <h3>Netflix</h3>
                     </a>
-                    <p>Tela inicial da Netflix..</p>
+                    <p>Tela inicial da Netflix.</p>
                     <nav>
                         <span>ReactJS</span>
                         <span>TypeScript</span>
