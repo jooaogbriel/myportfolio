@@ -18,11 +18,15 @@ export const Projects = ( )=> {
                     <h3>Nlw Setup / Mobile</h3>
                     </a>
                     <p>Uma aplicação de controle de hábitos completa.</p>
-                    <p>Uma aplicação de controle de hábitos completa.</p>
                     <nav>
                         <span>React Native</span>
                         <span>ReactJS</span>
                         <span>NodeJS</span>
+                        from django import forms
+from django import templatetags
+
+class UploadFileForm(forms.Form):
+    file = forms.FileField(label='Arquivo CNAB')
                     </nav>
                 </div>      
 
