@@ -22,11 +22,6 @@ export const Projects = ( )=> {
                         <span>React Native</span>
                         <span>ReactJS</span>
                         <span>NodeJS</span>
-                        from django import forms
-from django import templatetags
-
-class UploadFileForm(forms.Form):
-    file = forms.FileField(label='Arquivo CNAB')
                     </nav>
                 </div>      
 
