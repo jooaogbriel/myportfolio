@@ -1,7 +1,12 @@
 import * as C from './styles'
 import { useState } from 'react'
+import { useEffect } from 'react'
 
 export const Header = ( )=> {
+
+    useEffect(()=> {
+
+    },[])
 
     const [page, setPage] = useState([])
 
