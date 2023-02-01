@@ -8,7 +8,7 @@ export const Header = ( )=> {
 
     },[])
 
-    const [page, setPage] = useState([])
+    const [page, setPage] = useState(0)
 
     return (
         <C.Container>
