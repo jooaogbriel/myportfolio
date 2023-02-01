@@ -1,6 +1,10 @@
 import * as C from './styles'
+import { useState } from 'react'
 
 export const Header = ( )=> {
+
+    const [page, setPage] = useState([])
+
     return (
         <C.Container>
             <div className='container'>
