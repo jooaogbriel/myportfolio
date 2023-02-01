@@ -9,7 +9,6 @@ export const Projects = ( )=> {
             <div className='main'>
                 <div className='name'>
                     <h1>Aqui estão alguns dos meus projetos.</h1>
-                    <h1>Aqui estão alguns dos meus projetos.</h1>
                     <hr/>
                 </div>
                 <div className='img'> 
