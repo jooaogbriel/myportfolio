@@ -48,6 +48,7 @@ export const Projects = ( )=> {
                     <nav>
                         <span>ReactJS</span>
                         <span>Yup</span>
+                        <span>Yup</span>
                         <span>React Hook Form</span>
                     </nav>
                 </div>
