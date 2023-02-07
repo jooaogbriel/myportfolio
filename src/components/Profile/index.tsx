@@ -43,6 +43,7 @@ export const Projects = ( )=> {
                 <a className='principal' target="_blank" rel="noopener noreferrer" href="https://github.com/jooaogbriel/tela-login">
                     <img src={ project3 } alt=""></img>
                     <h3>Tela de Login</h3>
+                    <h3>Tela de Login</h3>
                 </a>
                     <p>Tela de Login com tema League of Legends.</p>
                     <nav>
