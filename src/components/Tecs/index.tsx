@@ -16,8 +16,8 @@ import coder from '../../imgs/coder.svg'
 export const Tecs = ( )=> {
     return (
        <C.Container>
-           <div className='main'>
-               <div className='name'>
+           <div className='main' id='tecs'>
+               <div className='name id'>
                    <h1>Algumas tecnologias que eu utilizo.</h1>
                </div>
 

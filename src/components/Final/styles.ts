@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+html{
+    scroll-behavior: smooth;
+}
 .main{
     display: flex;
     flex-direction: column;
@@ -17,6 +20,11 @@ hr {
     border-color: #6833E4;
     margin-top: 100px;
 }
+a{
+    text-decoration: underline;
+    font-style: italic;
+}
+
 .info{
     
     justify-content: space-between;

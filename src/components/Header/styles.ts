@@ -6,6 +6,9 @@ export const Container = styled.div`
     padding: 0;
     background-color: #121214;
 }
+html{
+    scroll-behavior: smooth;
+}
 .container{
     width: 100%;
   
@@ -20,6 +23,8 @@ export const Container = styled.div`
     height: 12%;
     display: flex;
     align-items: center;
+    
+  scroll-behavior: smooth;
 }
 .logo{
     width: 50px;

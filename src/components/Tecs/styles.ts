@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+html{
+    scroll-behavior: smooth;
+}
 .main{
     display: flex;
     align-items: center;

@@ -1,18 +1,10 @@
 import * as C from './styles'
-import { useState } from 'react'
-import { useEffect } from 'react'
 
 export const Header = ( )=> {
 
-    useEffect(()=> {
-
-    },[])
-
-    const [page, setPage] = useState(0)
-
     return (
         <C.Container>
-            <div className='container'>
+            <div className='container' id='header'>
                 <div className='navbar'>
                     <h1><span className='purple'>{'<'}</span>
                     <span className='white'>João Gabriel</span>
@@ -20,9 +12,9 @@ export const Header = ( )=> {
                     </h1>
                     <nav>
                     <ul>
-                        <li> <a href="/">Home</a> </li>
-                        <li> <a href="/">Projetos</a> </li>
-                        <li> <a href="/">Tecnologias</a> </li>
+                        <li> <a href="#projetos">Projetos</a> </li>
+                        <li> <a href="#tecs">Tecnologias</a> </li>
+                        <li> <a href="#final">Contato</a> </li>
                     </ul>
                     </nav>
                    

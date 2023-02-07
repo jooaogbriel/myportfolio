@@ -6,7 +6,7 @@ import project1 from '../../imgs/nlw.png'
 export const Projects = ( )=> {
     return (
         <C.Container>
-            <div className='main'>
+            <div className='main' id='projetos'>
                 <div className='name'>
                     <h1>Aqui estão alguns dos meus projetos.</h1>
                     <hr/>

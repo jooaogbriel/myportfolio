@@ -8,7 +8,7 @@ import html from '../../imgs/html.svg'
 export const Home = ( )=> {
     return (
         <C.Container>
-        <div className='main'>
+        <div className='main' id='home'>
             <div className='intro'>
                 <h2>Hello Word! 👋</h2>
                 <div className='name'>

@@ -6,7 +6,7 @@ import tel from '../../imgs/tel.png'
 export const Final = ( )=> {
     return (
         <C.Container>
-            <div className='img'>
+            <div className='img ' id='final'>
                 <img src={line} alt="" />
             </div>
 
@@ -22,7 +22,9 @@ export const Final = ( )=> {
                         <img className='mini-img' src={tel} alt="" />
                         <p>+55 (19) 998748169</p>
                     </div>
+                    
                 </div>
+                <a href="#header" id='home'>Home</a>
 
             <hr/>
                 <div className='made'>
