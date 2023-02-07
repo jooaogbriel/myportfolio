@@ -46,7 +46,7 @@ export const Projects = ( )=> {
                     
                 </a>
                     <p>Tela de Login com tema League of Legends.</p>
-                    <p>Tela de Login com tema League of Legends.</p>
+                    
                     <nav>
                         <span>ReactJS</span>
                         <span>Yup</span>
