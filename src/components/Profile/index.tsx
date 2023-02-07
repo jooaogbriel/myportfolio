@@ -48,7 +48,7 @@ export const Projects = ( )=> {
                     <p>Tela de Login com tema League of Legends.</p>
                     
                     <nav>
-                        <span>ReactJS</span>
+                        <span>ReactJSS</span>
                         <span>Yup</span>
                         <span>React Hook Form</span>
                     </nav>
