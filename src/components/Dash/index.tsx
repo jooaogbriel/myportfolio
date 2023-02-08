@@ -18,10 +18,10 @@ export const Home = ( )=> {
                     <span className='purple'>Full Stack </span></h1>
                 </div>
                 <h2 className='media'>com 1 ano de experiência 🚀</h2>
-                <h2 className='media'>com 1 ano de experiência 🚀</h2>
             </div>
 
             <img src={paint} alt=''></img>
+            <img className='coding' src={coding} alt=''></img>
             <img className='coding' src={coding} alt=''></img>
             <img  className='dino' src={dino} alt=''></img>
             <img  className='html' src={html} alt=''></img>
