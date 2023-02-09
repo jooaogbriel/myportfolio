@@ -24,6 +24,9 @@ export const Home = ( )=> {
             <img className='coding' src={coding} alt=''></img>
             <img  className='dino' src={dino} alt=''></img>
             <img  className='html' src={html} alt=''></img>
+            <img className='coding' src={coding} alt=''></img>
+            <img  className='dino' src={dino} alt=''></img>
+            <img  className='html' src={html} alt=''></img>
             <img  className='js' src={jsback} alt=''></img>
 
             <div className='list'>
